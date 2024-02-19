@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(229, 236, 239);
+}    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: wheat;
+    align-items: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li{
+    padding: 0% 15px;
+}
+
+.brand img{
+    width: 45px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.container{
+    height: 500px;
+    width: 70%;
+    min-width: 70%;
+    display: flex;
+    margin: 30px auto;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('images/Wallpaper\ music\ background\ dark\ vinyl\ record\ images\ for.jpg');
+    background-size: 100% 100%;
+}
+
+.songList{
+    height: 100%;
+    width: 50%;
+}
+
+.songs{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    color: black;
+    width: 80%;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 13px;
+    margin-top: 8px;
+}
+
+.songs img{
+    border-radius: 34px;
+}
+
+.songWrapper{
+    margin-top: 30px;
+}
+
+.banner{
+    width: 50%;
+    height: 100%;
+}
+
+.bottom{
+    height: 15vh;
+    position: sticky;
+    background-color: black;
+    margin-top: 6.8vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-name{
+    position: absolute;
+    left: 10.3vw;
+    top: 0px;
+}
+.song-name span{
+    margin-left: 5px;
+}
+.song-name img{
+    opacity: 0;
+    height: 15px;
+}
+
+i{
+    padding-top:10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+#pg-bar{
+    width: 80%;
+    cursor: pointer;
+}

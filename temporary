@@ -1,0 +1,14 @@
+musicPlay.addEventListener('click',()=>{
+    if(audioElement.paused || audioElement.currentTime<=0){
+        audioElement.play();
+        musicPlay.classList.remove('fa-play');
+        musicPlay.classList.add('fa-pause');
+        gif.style.opacity=1;
+    }
+    else{
+        audioElement.pause();
+        musicPlay.classList.remove('fa-pause');
+        musicPlay.classList.add('fa-play');
+        gif.style.opacity=0;
+    }
+});
